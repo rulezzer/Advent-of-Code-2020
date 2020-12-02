@@ -20,7 +20,7 @@ int main() {
         if ((s.at(min-1) == c || s.at(abs(max)-1) == c) && !(s.at(min-1) == c && s.at(abs(max)-1) == c))
             counter2++;
     }
-        cout << "Solution1: "<< counter << "\nSolution2: "<< counter2 << endl;
+    cout << "Solution1: "<< counter << "\nSolution2: "<< counter2 << endl;
 
     return 0;
 }
